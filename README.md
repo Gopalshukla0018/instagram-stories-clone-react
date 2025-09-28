@@ -1,16 +1,75 @@
-# React + Vite
+# 📸 Instagram Stories Clone (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simplified **Instagram Stories** feature built with React.  
+This project was developed as part of a frontend coding test to demonstrate UI/UX skills and interactive functionality.
 
-Currently, two official plugins are available:
+🔗 **Live Demo:** [View Here](https://cactro-hiring-test.vercel.app/)  
+📂 **Repository:** [GitHub Repo](https://github.com/Gopalshukla0018/instagram-stories-clone-react)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 📱 **Mobile-first UI** – Designed for mobile screens (not desktop).
+- 🎞 **Story Bar** – Horizontal list of story circles.
+- 🌈 **Viewed/Unviewed Indicator** –  
+  - New stories → gradient border.  
+  - Viewed stories → gray border.
+- 👆 **Manual Navigation** –  
+  - Tap left = previous story.  
+  - Tap right = next story.  
+  - Close button to exit.
+- ⏱ **Auto Navigation** – Stories auto-advance every 5 seconds.
+- 📊 **Progress Bar** – Visual timer showing story progress.
+- ⏳ **Loading State** – Shows “Loading...” before story image appears.
+- 🎨 **Smooth Transitions** – Fade-in image effect for a clean experience.
+- 📂 **External Data** – Stories fetched from `stories.json`.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+- **React.js** (with Hooks: `useState`, `useEffect`)
+- **Tailwind CSS** for styling
+- **JavaScript (ES6+)**
+- **Vercel** for deployment
+
+---
+
+## 📂 Project Structure
+
+src/
+├── components/
+│ ├── StoryBar.jsx # Story circles (viewed/unviewed)
+│ └── StoryOverlay.jsx # Fullscreen story viewer
+├── App.jsx # Main logic
+├── App.css # Global styles
+public/
+├── stories.json # Story data (images)
+
+yaml
+Copy code
+
+---
+
+## ⚙️ Setup & Run Locally
+
+1. **Clone this repo**
+   ```bash
+   git clone https://github.com/Gopalshukla0018/instagram-stories-clone-react.git
+   cd instagram-stories-clone-react
+2. **Install dependencies**
+   ```bash
+   git clone https://github.com/Gopalshukla0018/instagram-stories-clone-react.git
+   cd instagram-stories-clone-react
+3. **Start the development server**
+    `npm run dev`
+
+  
+📜 License
+
+This project is open-source and free to use.
+👨‍💻 Author
+
+Gopal Shukla
+Frontend Developer | React Enthusiast
